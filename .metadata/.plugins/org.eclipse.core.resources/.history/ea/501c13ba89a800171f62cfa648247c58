@@ -1,0 +1,13 @@
+package aspects;
+
+import org.aspectj.lang.annotation.AfterThrowing;
+
+public class RetryAspect {
+	
+	@AfterThrowing(pointcut = "execution(* *.*(..))",throwing = "e")
+	public void autoRetryNetwork(JoinPoint joinPoint, IllegalArgumentException e)
+	{
+		
+	}
+
+}

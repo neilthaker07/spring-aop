@@ -1,0 +1,16 @@
+package aspects;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+@Aspect
+public class AuthorizationAspect 
+{
+	
+	@Before("execution(* readBlog(..))")
+	public void reading()
+	{
+		
+	}
+	
+}

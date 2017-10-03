@@ -1,0 +1,19 @@
+package aspects;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterThrowing;
+
+import exceptions.NetworkException;
+
+public class RetryAspect {
+	
+	int count = 0;
+	
+	@AfterThrowing(pointcut = "execution(* *.*(..))",throwing = "e")
+	public void autoRetryNetwork(JoinPoint joinPoint, NetworkException e)
+	{
+		count ++;
+		System.out.println("An exception : "+e+ " has been thrown");
+	}
+
+}

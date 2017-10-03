@@ -1,0 +1,6 @@
+package aspects;
+
+@Aspect
+public class AuthorizationAspect {
+
+}

@@ -12,12 +12,17 @@
 	     http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
    ">
 
-	<aop:aspectj-autoproxy />
-	
-<!-- activate annotations in registered beans -->
+  <!-- activate annotations in registered beans -->
     <context:annotation-config />   
 
-<bean id="blogService" class="services.BlogServiceImpl" scope="singleton"></bean>
+    <!-- Enable Spring AOP with AspectJ -->
+    <aop:aspectj-autoproxy />
+
+<bean id="blogService" class="services.BlogServiceImpl" scope="singleton"/>
    
+<bean id="validationAspect" class="aspects.ValidationAspect"> </bean>
+<bean id="authorizationAspect" class="aspects.AuthorizationAspect"> </bean>
+<bean id="retryAspect" class="aspects.RetryAspect"> </bean>
+
 
 </beans>

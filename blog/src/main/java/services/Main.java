@@ -8,15 +8,20 @@ import exceptions.NetworkException;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		ApplicationContext ctx  = new ClassPathXmlApplicationContext("beans.xml");
-		BlogServiceImpl blogService = (BlogServiceImpl)ctx.getBean("blogService");
+		BlogService blogService = (BlogService) ctx.getBean("blogService");
 		
 		try {
+			
 			blogService.readBlog("Alice", "Alice");
-			/*blogService.shareBlog("Alice", blogUserId, targetUserId);
-			blogService.commentOnBlog(userId, blogUserId, message);
-			blogService.unshareBlog(userId, targetUserId);*/
+			blogService.shareBlog("Alice", "Alice", "Bob");
+			blogService.readBlog("Bob", "Alice");
+
+			//blogService.unshareBlog("Alice", "Alice");
+			//blogService.commentOnBlog("22222", "11111", "789");
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

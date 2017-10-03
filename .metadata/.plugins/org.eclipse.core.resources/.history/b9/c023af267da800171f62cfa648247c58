@@ -1,0 +1,20 @@
+package aspects;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class ValidationAspect {
+	
+	@Before("allUsers()")
+	public void userLength()
+	{
+		
+	}
+
+	@Pointcut("execution(* readBlog())")
+	public void allUsers()
+	{}
+	
+}
