@@ -1,0 +1,6 @@
+1507058950886	Rename package 'blog'
+1507060202752	Rename package 'blogService'
+1507060654460	Rename method 'readProfile'
+1507060659102	Rename method 'shareProfile'
+1507060664136	Rename method 'unshareProfile'
+1507061479460	Rename local variable 'a'

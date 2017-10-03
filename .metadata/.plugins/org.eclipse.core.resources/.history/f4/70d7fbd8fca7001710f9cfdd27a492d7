@@ -1,0 +1,15 @@
+package learn;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+@Aspect
+public class LogAspect {
+	
+	@Before("exection(public String getName())")
+	public void loggingAdvice()
+	{
+		System.out.println("logging advice");
+	}
+	
+}

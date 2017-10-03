@@ -1,0 +1,10 @@
+package learn;
+
+public class LogAspect {
+	
+	public void logging()
+	{
+		System.out.println("Advice in aop");
+	}
+	
+}

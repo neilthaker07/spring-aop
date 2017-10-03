@@ -1,0 +1,23 @@
+package services;
+
+public class BlogServiceImpl implements BlogService{
+
+	public Blog readProfile(String userId, String profileUserId)
+			throws AccessDeniedExeption, NetworkException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void shareProfile(String userId, String profileUserId,
+			String targetUserId) throws AccessDeniedExeption, NetworkException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void unshareProfile(String userId, String targetUserId)
+			throws AccessDeniedExeption, NetworkException {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

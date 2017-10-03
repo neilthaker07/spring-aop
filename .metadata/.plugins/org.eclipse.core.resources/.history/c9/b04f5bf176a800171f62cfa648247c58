@@ -1,0 +1,27 @@
+package services;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ApplicationContext ctx  = new ClassPathXmlApplicationContext("beans.xml");
+		BlogServiceImpl a = (BlogServiceImpl)ctx.getBean("blogService");
+		
+		a.readBlog(userId, blogUserId);
+		a.shareBlog(userId, blogUserId, targetUserId);
+		a.commentOnBlog(userId, blogUserId, message);
+		a.unshareBlog(userId, targetUserId);
+		
+		try {
+        	profileService.shareProfile("Alice", "Alice", "Bo");
+            profileService.readProfile("Bob", "Alice");
+            profileService.unshareProfile("Alice", "Bob");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        ctx.close();
+	}
+
+}

@@ -1,0 +1,54 @@
+package services;
+
+import exceptions.AccessDeniedExeption;
+import exceptions.NetworkException;
+
+public interface BlogService {
+
+	/**
+	 * Read the profile of another user or oneself.
+	 * 
+	 * @param userId
+	 *            the ID of the current user
+	 * @param profileUserId
+	 *            the ID of user, whose profile is being requested
+	 * @return the profile for profileUserId
+	 */
+	Blog readBlog(String userId, String profileUserId)
+			throws AccessDeniedExeption, NetworkException;
+
+	/**
+	 * Comment on another user’s blog with a message.
+	 * 
+	 * @param userId
+	 *            the ID of the current user
+	 * @param blogUserId
+	 *            the ID of user, whose blog is being commented
+	 */
+	void commentOnBlog(String userId, String blogUserId, String message)
+			throws AccessDeniedExeption, NetworkException,
+			IllegalArgumentException;
+	
+	/**
+	 * Share a profile with another user. The profile may or may not belong to
+	 * the current user.
+	 * 
+	 * @param userId
+	 *            the ID of the current user
+	 * @param profileUserId
+	 *            the ID of the user, whose profile is being shared
+	 * @param targetUserId
+	 *            the ID of the user to share the profile with
+	 */
+	void shareBlog(String userId, String profileUserId, String targetUserId)
+			throws AccessDeniedExeption, NetworkException;
+
+	/**
+	 * Unshare the current user's own profile with another user.
+	 * 
+	 * @param userId
+	 * @param targetUserId
+	 */
+	void unshareBlog(String userId, String targetUserId)
+			throws AccessDeniedExeption, NetworkException;
+}

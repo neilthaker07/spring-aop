@@ -1,0 +1,13 @@
+package learn;
+
+import org.aspectj.lang.annotation.Aspect;
+
+@Aspect
+public class LogAspect {
+	
+	public void loggingAdvice()
+	{
+		System.out.println("logging advice");
+	}
+	
+}

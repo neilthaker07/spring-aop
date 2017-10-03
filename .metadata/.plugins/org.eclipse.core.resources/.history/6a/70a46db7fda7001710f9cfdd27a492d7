@@ -1,0 +1,22 @@
+package learn;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class LogAspect {
+	
+	@Before("")
+	public void loggingAdvice()
+	{
+		System.out.println("logging advice");
+	}
+	
+	@Pointcut("execution(public String getName())")
+	public void allGetters()
+	{
+		
+	}
+	
+}

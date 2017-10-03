@@ -1,0 +1,11 @@
+package learn;
+
+@Aspect
+public class LogAspect {
+	
+	public void loggingAdvice()
+	{
+		System.out.println("logging advice");
+	}
+	
+}

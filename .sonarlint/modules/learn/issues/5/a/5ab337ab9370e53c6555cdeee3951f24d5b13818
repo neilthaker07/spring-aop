@@ -1,0 +1,8 @@
+
+~squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(øîŠå8³ý£†î+H=RMAJORZ
+CODE_SMELL
+·squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(µ‚Æ³8¥Âˆ†î+H9RCRITICALZ
+CODE_SMELL
+p
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ë’ú“ùÿÿÿÿ8×ÑÞ…î+H!RMAJORZ
+CODE_SMELL
