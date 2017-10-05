@@ -1,0 +1,10 @@
+
+}squid:S1192"FDefine a constant instead of duplicating this literal "Alice" 5 times.(¦ì£”8¢ãÞ£î+H®RCRITICALZ
+CODE_SMELL
+~squid:UselessImportCheck"8Remove this unused import 'exceptions.NetworkException'.(¬à×¡üÿÿÿÿ8Òëùžî+HÎRMINORZ
+CODE_SMELL
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8êïÅ¡î+H­RMINORZVULNERABILITY
+~squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(øÚŸ8ÒŸ’¤î+H»RMAJORZ
+CODE_SMELL
+}squid:UselessImportCheck"<Remove this unused import 'exceptions.AccessDeniedExeption'.(Äö›ñ8Òëùžî+HÏRMINORZ
+CODE_SMELL

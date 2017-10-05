@@ -3,3 +3,21 @@ G
 src/main/java/beans.xml,e/f/ef295312e09dcc62d4d4ddf1bbbc9388146021d6
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+b
+2src/main/java/exceptions/AccessDeniedExeption.java,b/0/b092b0595447391fc71296493a979ccbdd253f50
+W
+'src/main/java/services/BlogService.java,a/a/aab369506a3d1967d495502438f61b6f9a969dee
+P
+ src/main/java/services/Blog.java,6/1/61b2629bdbcb686878c4f4e128262bef04f3c36b
+V
+&src/main/java/aspects/RetryAspect.java,1/5/1504334b00ac3a86b5a6cdfe72d5cd5020492a98
+^
+.src/main/java/exceptions/NetworkException.java,d/6/d6d0e6accf4b08d1c106d69703c3451a214ce21f
+[
++src/main/java/services/BlogServiceImpl.java,3/a/3a4c2759f39ade7071bc6ab227cafb0096878f9e
+P
+ src/main/java/services/Main.java,0/e/0e468f67371cbac408e82d1652f8853ae4759678
+[
++src/main/java/aspects/ValidationAspect.java,6/e/6e8a225d9ac5284a2b2c5b3c458247d60ebea1e5
+^
+.src/main/java/aspects/AuthorizationAspect.java,d/1/d1027c1d52df17f753b83402bbc2eb71530cbf34

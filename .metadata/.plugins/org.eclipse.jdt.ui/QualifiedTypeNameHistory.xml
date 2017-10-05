@@ -5,9 +5,19 @@
 <fullyQualifiedTypeName name="learn.Circle"/>
 <fullyQualifiedTypeName name="learn.Triangle"/>
 <fullyQualifiedTypeName name="learn.ShapeService"/>
-<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
-<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
 <fullyQualifiedTypeName name="org.aopalliance.intercept.Joinpoint"/>
+<fullyQualifiedTypeName name="services.BlogService"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="exceptions.AccessDeniedExeption"/>
+<fullyQualifiedTypeName name="services.Blog"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="services.BlogServiceImpl"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
+<fullyQualifiedTypeName name="exceptions.NetworkException"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
+<fullyQualifiedTypeName name="java.nio.file.AccessDeniedException"/>
 </qualifiedTypeNameHistroy>
