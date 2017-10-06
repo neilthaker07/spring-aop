@@ -1,0 +1,31 @@
+
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(´‹ÈÏúÿÿÿÿ8—Åöî+HÎRMAJORZ
+CODE_SMELL
+jsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8—Åöî+HÓRINFOZ
+CODE_SMELL
+Šsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(İƒ’§øÿÿÿÿ8 šÆöî+HÏRMAJORZ
+CODE_SMELL
+Šsquid:S3457!"Q%n should be used in place of \n to produce the platform-specific line separator.(ºô­Ûıÿÿÿÿ8œÒÈöî+HÔRMAJORZ
+CODE_SMELL
+q
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ºô­Ûıÿÿÿÿ8 šÆöî+HÙRMAJORZ
+CODE_SMELL
+jsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8—Åöî+H×RINFOZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(½±äÆùÿÿÿÿ8ôçÇöî+HÖRMAJORZ
+CODE_SMELL
+jsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8—Åöî+HÑRINFOZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(İƒ’§øÿÿÿÿ8œÒÈöî+HĞRMAJORZ
+CODE_SMELL
+Šsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(´‹ÈÏúÿÿÿÿ8—Åöî+HÒRMAJORZ
+CODE_SMELL
+»%squid:RedundantThrowsDeclarationCheck"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(¤·Êñ8œÒÈöî+HÕRMINORZ
+CODE_SMELL
+jsquid:S1135 "2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8œÒÈöî+HÚRINFOZ
+CODE_SMELL
+Šsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(½±äÆùÿÿÿÿ8ôçÇöî+HØRMAJORZ
+CODE_SMELL

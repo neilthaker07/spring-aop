@@ -1,9 +1,0 @@
-
-»%squid:RedundantThrowsDeclarationCheck"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(¾×û°8‹©Îžî+HàRMINORZ
-CODE_SMELL
-»%squid:RedundantThrowsDeclarationCheck"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(¾×û°8‹©Îžî+HáRMINORZ
-CODE_SMELL
-»%squid:RedundantThrowsDeclarationCheck."mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(¾×û°8‹©Îžî+HâRMINORZ
-CODE_SMELL
-»%squid:RedundantThrowsDeclarationCheck8"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(¾×û°8‹©Îžî+HãRMINORZ
-CODE_SMELL

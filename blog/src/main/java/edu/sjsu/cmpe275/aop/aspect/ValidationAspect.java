@@ -1,10 +1,14 @@
 package edu.sjsu.cmpe275.aop.aspect;
 
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.springframework.core.annotation.Order;
 
 @Aspect
+@Order(1)
 public class ValidationAspect {
 	
 	@Before("args(userId, blogUserId)")
@@ -14,7 +18,7 @@ public class ValidationAspect {
 		checkUserLength(blogUserId);
 	}
 	
-	@Before("execution(* share*(..)) && args(userId, blogUserId, targetUserId)")
+	@Before("execution(* edu.sjsu.cmpe275.aop.BlogService.shareBlog(..)) && args(userId, blogUserId, targetUserId)")
 	public void shareUserId(JoinPoint joinPoint, String userId, String blogUserId, String targetUserId)
 	{
 		checkUserLength(userId);
@@ -22,7 +26,7 @@ public class ValidationAspect {
 		checkUserLength(targetUserId);
 	}
 	
-	@Before("execution(* comment*(..)) && args(userId, blogUserId, comment)")
+	@Before("execution(* edu.sjsu.cmpe275.aop.BlogService.commentOnBlog(..)) && args(userId, blogUserId, comment)")
 	public void commentLength(JoinPoint joinPoint, String userId, String blogUserId, String comment)
 	{
 		checkUserLength(userId);
@@ -46,5 +50,10 @@ public class ValidationAspect {
 		}
 	}
 	
+	// sample
+	/*@Around("execution(public void edu.sjsu.cmpe275.aop.BlogService.*(..))")
+	public void dummyAdvice(ProceedingJoinPoint joinPoint) {
+		System.out.printf("Prior to the executuion of the metohd %s\n", joinPoint.getSignature().getName());
+	}*/
 	
 }

@@ -1,9 +1,0 @@
-
-¸squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(°´÷©8‰ïøŸî+HöRCRITICALZ
-CODE_SMELL
-º%squid:RedundantThrowsDeclarationCheck"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(ð¾³8ï‰Æžî+HùRMINORZ
-CODE_SMELL
-½squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‘ÁÄÙûÿÿÿÿ8‰ïøŸî+HúRCRITICALZ
-CODE_SMELL
-„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜éðÐüÿÿÿÿ8ÿŒÜ£î+HªRMAJORZ
-CODE_SMELL

@@ -5,7 +5,6 @@
 <fullyQualifiedTypeName name="learn.Circle"/>
 <fullyQualifiedTypeName name="learn.Triangle"/>
 <fullyQualifiedTypeName name="learn.ShapeService"/>
-<fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
 <fullyQualifiedTypeName name="org.aopalliance.intercept.Joinpoint"/>
 <fullyQualifiedTypeName name="services.BlogService"/>
@@ -19,5 +18,10 @@
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.nio.file.AccessDeniedException"/>
+<fullyQualifiedTypeName name="edu.sjsu.cmpe275.aop.BlogService"/>
 </qualifiedTypeNameHistroy>
