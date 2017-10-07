@@ -1,6 +1,5 @@
 
-Ï%squid:RedundantThrowsDeclarationCheckE"|Remove the declaration of thrown exception 'java.nio.file.AccessDeniedException', as it cannot be thrown from method's body.(ÀÀ” ùÿÿÿÿ8½í•÷î+H RMINORZ
+squid:CommentedOutCodeLinee"<This block of commented-out lines of code should be removed.(ß»ùò8É¢Ö÷î+H«RMAJORZ
 CODE_SMELL
-squid:CommentedOutCodeLineZ"<This block of commented-out lines of code should be removed.(ß»ùò8É¢Ö÷î+HƒRMAJORZ
+Ï%squid:RedundantThrowsDeclarationCheckM"|Remove the declaration of thrown exception 'java.nio.file.AccessDeniedException', as it cannot be thrown from method's body.(ÀÀ” ùÿÿÿÿ8¬¢“ùî+HóRMINORZ
 CODE_SMELL
-vsquid:S2583R"DChange this condition so that it does not always evaluate to "false"(µâÖ‘ýÿÿÿÿ8©íè÷î+H‰RMAJORZBUG

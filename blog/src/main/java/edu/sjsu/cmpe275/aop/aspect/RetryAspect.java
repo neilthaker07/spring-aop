@@ -1,38 +1,35 @@
 package edu.sjsu.cmpe275.aop.aspect;
 
-import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.core.annotation.Order;
 
 import edu.sjsu.cmpe275.aop.exceptions.NetworkException;
 
+@Order(3)
 @Aspect
 public class RetryAspect {
 	
-	int count = 0;
-	
-	@AfterThrowing(pointcut = "execution(* *.*(..))",throwing = "e")
-	public void autoRetryNetwork(JoinPoint joinPoint, NetworkException e)
+	@Around("allBlogServices()")
+	public void autoRetryNetwork(ProceedingJoinPoint proceedingJoinPoint) throws NetworkException
 	{
-		System.out.println("COUNT : COUNT : "+count);
-		if(count == 0)
-		{
-//			try {
-//				throw new NetworkException("After 2 retries also network exception happened.");
-//			} catch (NetworkException e1) {
-//				e1.printStackTrace();
-//			}
+		try {
+			proceedingJoinPoint.proceed();
+		} catch (Throwable e) {
+			try {
+				proceedingJoinPoint.proceed();
+			} catch (Throwable e1) {
+				try {
+					proceedingJoinPoint.proceed();
+				} catch (Throwable e2) {
+					throw new NetworkException("Network issue, tried 2 times but failed.");
+				}
+			}
 		}
-		count ++;
-		System.out.println("An exception : "+e+ " has been thrown : "+ count);
 	}
 	
-	// sample
-/*	@Around("execution(public void edu.sjsu.cmpe275.aop.BlogService.*(..))")
-	public void dummyAdvice(ProceedingJoinPoint joinPoint) {
-		System.out.printf("Prior to the executuion of the metohd %s\n", joinPoint.getSignature().getName());
-	}
-*/
+	@Pointcut("within(edu.sjsu.cmpe275.aop.BlogServiceImpl)")
+	public void allBlogServices(){}
 }

@@ -1,8 +1,6 @@
 package edu.sjsu.cmpe275.aop.aspect;
 
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.core.annotation.Order;
@@ -49,11 +47,4 @@ public class ValidationAspect {
 			throw new IllegalArgumentException();
 		}
 	}
-	
-	// sample
-	/*@Around("execution(public void edu.sjsu.cmpe275.aop.BlogService.*(..))")
-	public void dummyAdvice(ProceedingJoinPoint joinPoint) {
-		System.out.printf("Prior to the executuion of the metohd %s\n", joinPoint.getSignature().getName());
-	}*/
-	
 }

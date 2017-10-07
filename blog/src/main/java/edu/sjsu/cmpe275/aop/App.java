@@ -16,7 +16,11 @@ public class App {
 
         try {
         	blogService.shareBlog("Alice", "Alice", "Bob");
-        	/*blogService.shareBlog("Alice", "Alice", "Charles");
+        	blogService.unshareBlog("Alice", "Bob");
+        	blogService.commentOnBlog("Bob", "Alice","ABCDEF");
+        	/*blogService.shareBlog("Alice", "Alice", "Bob");
+        	blogService.readBlog("Bob", "Alice");
+        	blogService.shareBlog("Alice", "Alice", "Charles");
         	blogService.shareBlog("Bob", "Alice", "Don");
         	blogService.readBlog("Don", "Alice");
         	blogService.readBlog("Charles", "Alice");
