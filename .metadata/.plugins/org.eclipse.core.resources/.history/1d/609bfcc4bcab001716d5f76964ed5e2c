@@ -19,7 +19,7 @@ public class AuthorizationAspect
 	Map<String, HashSet<String>> users = new HashMap<String, HashSet<String>>();
 
 	@Before("execution(* edu.sjsu.cmpe275.aop.BlogService.readBlog(..)) && args(userId, blogUserId)")
-	public void readAuth(JoinPoint joinPoint, String userId, String blogUserId) throws AccessDeniedExeption
+	public void readCheck(JoinPoint joinPoint, String userId, String blogUserId) throws AccessDeniedExeption
 	{
 		if( !userId.equals(blogUserId) && 
 				( users.isEmpty() ||
@@ -31,7 +31,7 @@ public class AuthorizationAspect
 	}
 
 	@Before("execution(* edu.sjsu.cmpe275.aop.BlogService.shareBlog(..)) && args(userId, blogUserId, targetUserId)")
-	public void sharingAuth(JoinPoint joinPoint, String userId, String blogUserId, String targetUserId) throws AccessDeniedExeption 
+	public void sharingCheck(JoinPoint joinPoint, String userId, String blogUserId, String targetUserId) throws AccessDeniedExeption 
 	{
 		if( !userId.equals(blogUserId) && 
 			   ( users.isEmpty() || 
@@ -63,7 +63,7 @@ public class AuthorizationAspect
 	}
 	
 	@Before("execution(* edu.sjsu.cmpe275.aop.BlogService.unshareBlog(..)) && args(userId, targetUserId)")
-	public void unsharingAuth(JoinPoint joinPoint, String userId, String targetUserId) throws AccessDeniedExeption
+	public void unsharingCheck(JoinPoint joinPoint, String userId, String targetUserId) throws AccessDeniedExeption
 	{
 		if( !userId.equals(targetUserId) && 
 			   ( users.isEmpty() ||
@@ -86,7 +86,7 @@ public class AuthorizationAspect
 	}
 
 	@Before("execution(* edu.sjsu.cmpe275.aop.BlogService.commentOnBlog(..)) && args(userId, blogUserId, message)")
-	public void commentAuth(JoinPoint joinPoint, String userId, String blogUserId, String message) throws AccessDeniedExeption
+	public void commentCheck(JoinPoint joinPoint, String userId, String blogUserId, String message) throws AccessDeniedExeption
 	{
 		if( !userId.equals(blogUserId) && 
 				( users.isEmpty() ||

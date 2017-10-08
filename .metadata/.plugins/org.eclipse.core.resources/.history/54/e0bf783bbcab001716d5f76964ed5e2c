@@ -19,18 +19,17 @@ public class RetryAspect {
 			proceedingJoinPoint.proceed();
 		} catch (Throwable e) {
 			try {
-				//System.out.println("Try to fix network exception: Try 1");
+				System.out.println("Try to fix network exception: Try 1");
 				proceedingJoinPoint.proceed();
 			} catch (Throwable e1) {
 				try {
-					//System.out.println("Try to fix network exception: Try 2");
+					System.out.println("Try to fix network exception: Try 2");
 					proceedingJoinPoint.proceed();
 				} catch (Throwable e2) {
 					throw new NetworkException("Network issue, tried 2 times but failed.");
 				}
-				//System.out.println("Network issue fixed after 2 tries.");
+				System.out.println("Try to fix network exception: Try 2");
 			}
-			//System.out.println("Network issue fixed after 1 try.");
 		}
 	}
 	

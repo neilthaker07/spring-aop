@@ -1,5 +1,0 @@
-
-squid:CommentedOutCodeLinee"<This block of commented-out lines of code should be removed.(ß»ùò8É¢Ö÷î+H«RMAJORZ
-CODE_SMELL
-Ï%squid:RedundantThrowsDeclarationCheckM"|Remove the declaration of thrown exception 'java.nio.file.AccessDeniedException', as it cannot be thrown from method's body.(ÀÀ” ùÿÿÿÿ8¬¢“ùî+HóRMINORZ
-CODE_SMELL

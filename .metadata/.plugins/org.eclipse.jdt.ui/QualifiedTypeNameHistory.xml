@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="learn.Circle"/>
 <fullyQualifiedTypeName name="learn.Triangle"/>
 <fullyQualifiedTypeName name="learn.ShapeService"/>
-<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
 <fullyQualifiedTypeName name="org.aopalliance.intercept.Joinpoint"/>
 <fullyQualifiedTypeName name="services.BlogService"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -20,10 +19,14 @@
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
-<fullyQualifiedTypeName name="java.nio.file.AccessDeniedException"/>
 <fullyQualifiedTypeName name="edu.sjsu.cmpe275.aop.BlogService"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
 <fullyQualifiedTypeName name="org.springframework.core.annotation.Order"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterReturning"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
 <fullyQualifiedTypeName name="edu.sjsu.cmpe275.aop.exceptions.NetworkException"/>
+<fullyQualifiedTypeName name="java.nio.file.AccessDeniedException"/>
+<fullyQualifiedTypeName name="edu.sjsu.cmpe275.aop.exceptions.AccessDeniedExeption"/>
 </qualifiedTypeNameHistroy>

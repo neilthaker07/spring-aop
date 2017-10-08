@@ -1,23 +1,26 @@
 
-Šsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(´‹ÈÏúÿÿÿÿ8—Åöî+H¢RMAJORZ
+q
+squid:S106#"9Replace this use of System.out or System.err by a logger.(İƒ’§øÿÿÿÿ8œÒÈöî+HÏ	RMAJORZ
 CODE_SMELL
-Šsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(İƒ’§øÿÿÿÿ8 šÆöî+H¥RMAJORZ
+Šsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(´‹ÈÏúÿÿÿÿ8—Åöî+HÎ	RMAJORZ
+CODE_SMELL
+À%squid:RedundantThrowsDeclarationCheck1"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(ÍşÅşÿÿÿÿ8œÒÈöî+HÑ	RMINORZ
 CODE_SMELL
 q
-squid:S106""9Replace this use of System.out or System.err by a logger.(ºô­Ûıÿÿÿÿ8œÒÈöî+H¤RMAJORZ
+squid:S106-"9Replace this use of System.out or System.err by a logger.(½±äÆùÿÿÿÿ8—Åöî+HÉ	RMAJORZ
 CODE_SMELL
-Šsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(½±äÆùÿÿÿÿ8ôçÇöî+H¨RMAJORZ
+Šsquid:S34578"Q%n should be used in place of \n to produce the platform-specific line separator.(ºô­Ûıÿÿÿÿ8œÒÈöî+HÍ	RMAJORZ
 CODE_SMELL
-À%squid:RedundantThrowsDeclarationCheck "mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(ÍşÅşÿÿÿÿ8œÒÈöî+H£RMINORZ
-CODE_SMELL
-q
-squid:S106"9Replace this use of System.out or System.err by a logger.(½±äÆùÿÿÿÿ8 šÆöî+H¡RMAJORZ
+Šsquid:S3457#"Q%n should be used in place of \n to produce the platform-specific line separator.(İƒ’§øÿÿÿÿ8 šÆöî+HÊ	RMAJORZ
 CODE_SMELL
 q
-squid:S106"9Replace this use of System.out or System.err by a logger.(´‹ÈÏúÿÿÿÿ8ôçÇöî+HŸRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(´‹ÈÏúÿÿÿÿ8 šÆöî+HĞ	RMAJORZ
 CODE_SMELL
-Šsquid:S3457""Q%n should be used in place of \n to produce the platform-specific line separator.(ºô­Ûıÿÿÿÿ8œÒÈöî+HRMAJORZ
+squid:S1192"SDefine a constant instead of duplicating this literal "throwing manually " 4 times.(óÜ½µüÿÿÿÿ8åÜáÉï+H±
+RCRITICALZ
 CODE_SMELL
 q
-squid:S106"9Replace this use of System.out or System.err by a logger.(İƒ’§øÿÿÿÿ8—Åöî+H¦RMAJORZ
+squid:S1068"9Replace this use of System.out or System.err by a logger.(ºô­Ûıÿÿÿÿ8ôçÇöî+HË	RMAJORZ
+CODE_SMELL
+Šsquid:S3457-"Q%n should be used in place of \n to produce the platform-specific line separator.(½±äÆùÿÿÿÿ8ôçÇöî+HÌ	RMAJORZ
 CODE_SMELL

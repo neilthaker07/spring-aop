@@ -16,6 +16,8 @@ public class App {
 
         try {
         	blogService.shareBlog("Alice", "Alice", "Bob");
+        	blogService.commentOnBlog("Bob", "Alice","ABCDEF");
+        	/*blogService.shareBlog("Alice", "Alice", "Bob");
         	blogService.readBlog("Bob", "Alice");
         	blogService.shareBlog("Alice", "Alice", "Charles");
         	blogService.shareBlog("Bob", "Alice", "Don");
@@ -28,7 +30,7 @@ public class App {
             //blogService.commentOnBlog("Charles", "Bob", "Great");
             blogService.unshareBlog("Alice", "Bob");
             blogService.shareBlog("Charles", "Alice", "Bob");
-            blogService.readBlog("Bob", "Alice");
+            blogService.readBlog("Bob", "Alice");*/
             //blogService.unshareBlog("Alice", "Bob");
         } catch (Exception e) {
             e.printStackTrace();
