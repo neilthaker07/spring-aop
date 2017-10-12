@@ -27,12 +27,12 @@ public class BlogServiceImpl implements BlogService{
 	public void shareBlog(String userId, String blogUserId, String targetUserId)
 			throws AccessDeniedExeption, NetworkException 
 	{
-		System.out.printf("User %s shares user %s's blog with user %s\n", userId, blogUserId, targetUserId);
 		if(count2 < 2)
 		{
 			count2++;
 			throw new NetworkException("throwing manually ");
 		}
+		System.out.printf("User %s shares user %s's blog with user %s\n", userId, blogUserId, targetUserId);
 	}
 
 	public void unshareBlog(String userId, String targetUserId) throws AccessDeniedExeption, NetworkException 
@@ -48,12 +48,12 @@ public class BlogServiceImpl implements BlogService{
 	public void commentOnBlog(String userId, String blogUserId, String message)
 			throws AccessDeniedExeption, IllegalArgumentException, NetworkException 
 	{
-		if(count3 < 2)
+		System.out.printf("User %s commented on %s's blog\n", userId, blogUserId);
+		if(count3 <= 2)
 		{
 			count3++;
 			throw new NetworkException("throwing manually ");
 		}
-		System.out.printf("User %s commented on %s's blog\n", userId, blogUserId);		
 	}
 
 }

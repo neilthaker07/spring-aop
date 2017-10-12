@@ -28,11 +28,6 @@ public class BlogServiceImpl implements BlogService{
 			throws AccessDeniedExeption, NetworkException 
 	{
 		System.out.printf("User %s shares user %s's blog with user %s\n", userId, blogUserId, targetUserId);
-		if(count2 < 2)
-		{
-			count2++;
-			throw new NetworkException("throwing manually ");
-		}
 	}
 
 	public void unshareBlog(String userId, String targetUserId) throws AccessDeniedExeption, NetworkException 
