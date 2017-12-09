@@ -1,12 +1,12 @@
 
-Xsquid:S1148""#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÏRMINORZVULNERABILITY
-squid:S1192"HDefine a constant instead of duplicating this literal "Charles" 4 times.(Æ›÷¥8à¦¿Êï+HÐRCRITICALZ
+}squid:S1192"GDefine a constant instead of duplicating this literal "Alice" 14 times.(‹©ÌI8à¦¿Êï+HçRCRITICALZ
 CODE_SMELL
-„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚†Œ¬ýÿÿÿÿ8à¦¿Êï+HÑRMAJORZ
+Xsquid:S1148""#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHèRMINORZVULNERABILITY
+squid:S1192"HDefine a constant instead of duplicating this literal "Charles" 4 times.(Æ›÷¥8à¦¿Êï+HéRCRITICALZ
 CODE_SMELL
-}squid:S1192"GDefine a constant instead of duplicating this literal "Alice" 14 times.(‹©ÌI8à¦¿Êï+HÒRCRITICALZ
+„squid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(ÅÁñœùÿÿÿÿ8à¦¿Êï+HêRMAJORZ
 CODE_SMELL
-„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼äÖ‡ÿÿÿÿÿ8à¦¿Êï+HÓRMAJORZ
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚†Œ¬ýÿÿÿÿ8à¦¿Êï+HëRMAJORZ
 CODE_SMELL
-„squid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(ÅÁñœùÿÿÿÿ8à¦¿Êï+HÔRMAJORZ
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼äÖ‡ÿÿÿÿÿ8à¦¿Êï+HìRMAJORZ
 CODE_SMELL

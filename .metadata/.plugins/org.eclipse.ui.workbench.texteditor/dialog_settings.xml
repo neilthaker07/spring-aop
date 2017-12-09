@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="shareBlog" key="selection"/>
+		<item value="spring-context" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="spring-context"/>
 			<item value="shareBlog"/>
 			<item value="readBlog"/>
 			<item value="targe"/>
@@ -24,6 +25,6 @@
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<item value="460" key="DIALOG_HEIGHT"/>
 		<item value="795" key="DIALOG_X_ORIGIN"/>
-		<item value="558" key="DIALOG_Y_ORIGIN"/>
+		<item value="284" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
